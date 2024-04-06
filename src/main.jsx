@@ -5,6 +5,7 @@ import './index.css'
 import HomePage from '/pages/HomePage.jsx'
 import RPSGame from '../pages/rps/RPS-Game'
 import Layout from '/src/Layout'
+import TicTacToeGame from '../pages/ticTacToe/src/App'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/rps",
         element: <RPSGame/>,
+      },
+      {
+        path: "/tictactoe",
+        element: <TicTacToeGame/>,
       },
     ],
   },
